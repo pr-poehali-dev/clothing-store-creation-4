@@ -27,68 +27,90 @@ interface CartItem extends Product {
 const products: Product[] = [
   {
     id: 1,
-    name: 'Стильная куртка',
-    price: 8900,
-    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/6fb1b4fe-d196-479c-ae56-50e815e9b67e.jpg',
-    category: 'Верхняя одежда',
-    size: ['S', 'M', 'L', 'XL'],
-    color: 'Черный',
-    brand: 'Urban Style',
+    name: 'Nike Air Max 270',
+    price: 14990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/b3edd821-6c4c-4f67-b5a6-40a3dbb819aa.jpg',
+    category: 'Lifestyle',
+    size: ['40', '41', '42', '43', '44', '45'],
+    color: 'Черный/Белый',
+    brand: 'Nike',
     isNew: true
   },
   {
     id: 2,
-    name: 'Элегантное платье',
-    price: 6500,
-    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/f9c807b5-3968-4ad0-baa7-8516ab2e53bc.jpg',
-    category: 'Платья',
-    size: ['XS', 'S', 'M', 'L'],
-    color: 'Бежевый',
-    brand: 'Chic Mode',
-    discount: 20
+    name: 'Adidas Ultraboost 22',
+    price: 16990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/b7a0f941-9734-4ce2-8991-6d4801093591.jpg',
+    category: 'Running',
+    size: ['40', '41', '42', '43', '44'],
+    color: 'Черный',
+    brand: 'Adidas',
+    discount: 15
   },
   {
     id: 3,
-    name: 'Повседневный свитшот',
-    price: 3200,
-    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/5232d1eb-9e02-40d5-a417-a0f9ee8f601d.jpg',
-    category: 'Повседневное',
-    size: ['M', 'L', 'XL', 'XXL'],
-    color: 'Серый',
-    brand: 'Comfort Wear',
+    name: 'New Balance 574',
+    price: 8990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/f63f9865-c638-4085-9ad2-5ffe96ba9734.jpg',
+    category: 'Lifestyle',
+    size: ['39', '40', '41', '42', '43'],
+    color: 'Серый/Синий',
+    brand: 'New Balance',
     isNew: true
   },
   {
     id: 4,
-    name: 'Джинсовая куртка',
-    price: 7200,
-    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/6fb1b4fe-d196-479c-ae56-50e815e9b67e.jpg',
-    category: 'Верхняя одежда',
-    size: ['S', 'M', 'L'],
+    name: 'Asics Gel-Kayano 29',
+    price: 13990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/b3edd821-6c4c-4f67-b5a6-40a3dbb819aa.jpg',
+    category: 'Running',
+    size: ['40', '41', '42', '43', '44'],
     color: 'Синий',
-    brand: 'Denim Co',
-    discount: 15
+    brand: 'Asics',
+    discount: 20
   },
   {
     id: 5,
-    name: 'Летнее платье',
-    price: 4900,
-    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/f9c807b5-3968-4ad0-baa7-8516ab2e53bc.jpg',
-    category: 'Платья',
-    size: ['XS', 'S', 'M'],
-    color: 'Розовый',
-    brand: 'Summer Vibes',
+    name: 'Nike React Infinity Run',
+    price: 12990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/b3edd821-6c4c-4f67-b5a6-40a3dbb819aa.jpg',
+    category: 'Running',
+    size: ['40', '41', '42', '43', '44', '45'],
+    color: 'Белый/Синий',
+    brand: 'Nike',
     isNew: true
   },
   {
     id: 6,
-    name: 'Спортивный костюм',
-    price: 5500,
-    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/5232d1eb-9e02-40d5-a417-a0f9ee8f601d.jpg',
-    category: 'Спортивное',
-    size: ['M', 'L', 'XL'],
-    color: 'Черный',
-    brand: 'Active Life'
+    name: 'Adidas Originals Superstar',
+    price: 9990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/b7a0f941-9734-4ce2-8991-6d4801093591.jpg',
+    category: 'Lifestyle',
+    size: ['39', '40', '41', '42', '43', '44'],
+    color: 'Белый/Черный',
+    brand: 'Adidas',
+    discount: 10
+  },
+  {
+    id: 7,
+    name: 'New Balance Fresh Foam',
+    price: 11990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/f63f9865-c638-4085-9ad2-5ffe96ba9734.jpg',
+    category: 'Running',
+    size: ['40', '41', '42', '43', '44'],
+    color: 'Серый',
+    brand: 'New Balance'
+  },
+  {
+    id: 8,
+    name: 'Asics GT-2000 10',
+    price: 10990,
+    image: 'https://cdn.poehali.dev/projects/4e47b175-b72e-4e05-b7a0-2887ba3dfc45/files/b3edd821-6c4c-4f67-b5a6-40a3dbb819aa.jpg',
+    category: 'Running',
+    size: ['40', '41', '42', '43', '44', '45'],
+    color: 'Черный/Оранжевый',
+    brand: 'Asics',
+    isNew: true
   }
 ];
 
@@ -99,9 +121,9 @@ export default function Index() {
   const [selectedColors, setSelectedColors] = useState<string[]>([]);
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
 
-  const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
-  const colors = ['Черный', 'Белый', 'Серый', 'Синий', 'Розовый', 'Бежевый'];
-  const brands = ['Urban Style', 'Chic Mode', 'Comfort Wear', 'Denim Co', 'Summer Vibes', 'Active Life'];
+  const sizes = ['39', '40', '41', '42', '43', '44', '45'];
+  const colors = ['Черный', 'Белый', 'Серый', 'Синий', 'Оранжевый'];
+  const brands = ['Nike', 'Adidas', 'New Balance', 'Asics'];
 
   const filteredProducts = products.filter(product => {
     const sizeMatch = selectedSizes.length === 0 || product.size.some(s => selectedSizes.includes(s));
@@ -176,7 +198,7 @@ export default function Index() {
                 <Icon name="Sparkles" className="w-6 h-6 text-white" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                FASHION STORE
+                SNEAKER STORE
               </h1>
             </div>
             
@@ -293,13 +315,13 @@ export default function Index() {
           <div className="max-w-3xl animate-fade-in">
             <Badge className="mb-4 animate-scale-in">Новая коллекция 2024</Badge>
             <h2 className="text-5xl md:text-6xl font-bold mb-6 animate-slide-up">
-              Стиль, который <br />
+              Легендарные <br />
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                вдохновляет
+                кроссовки
               </span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 animate-slide-up" style={{ animationDelay: '0.1s' }}>
-              Откройте для себя трендовые образы и качественную одежду по доступным ценам
+              Nike, Adidas, New Balance, Asics — топовые бренды в одном месте
             </p>
             <Button size="lg" className="animate-scale-in" style={{ animationDelay: '0.2s' }}>
               Смотреть каталог
@@ -482,10 +504,10 @@ export default function Index() {
             <div>
               <h4 className="font-bold mb-4 flex items-center gap-2">
                 <Icon name="Store" className="w-5 h-5" />
-                Fashion Store
+                Sneaker Store
               </h4>
               <p className="text-sm text-muted-foreground">
-                Современная одежда для стильных людей
+                Оригинальные кроссовки мировых брендов
               </p>
             </div>
             <div>
@@ -526,7 +548,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-            © 2024 Fashion Store. Все права защищены.
+            © 2024 Sneaker Store. Все права защищены.
           </div>
         </div>
       </footer>
